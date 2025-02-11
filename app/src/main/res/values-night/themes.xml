@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChatX" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.ChatX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand colors -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/black</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#E3E3E3</item>
+        <item name="android:textColorSecondary">#B3B3B3</item>
+        <item name="android:textColorHint">#808080</item>
+        
+        <!-- Background colors -->
+        <item name="android:windowBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorError">@color/error</item>
+        
+        <!-- Typography -->
+        <item name="textAppearanceHeadline6">@style/TextAppearance.ChatX.Dark.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.ChatX.Dark.Subtitle1</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.ChatX.Dark.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.ChatX.Dark.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.ChatX.Dark.Caption</item>
+    </style>
+
+    <!-- Dark Typography styles -->
+    <style name="TextAppearance.ChatX.Dark.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#E3E3E3</item>
+    </style>
+
+    <style name="TextAppearance.ChatX.Dark.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#E3E3E3</item>
+    </style>
+
+    <style name="TextAppearance.ChatX.Dark.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#E3E3E3</item>
+    </style>
+
+    <style name="TextAppearance.ChatX.Dark.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#B3B3B3</item>
+    </style>
+
+    <style name="TextAppearance.ChatX.Dark.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#B3B3B3</item>
+    </style>
+</resources>
